@@ -33,4 +33,12 @@ p.autor {
     color: rgb(239, 228, 172);
     font-size: 32px;
     font-style: italic;
+    margin-right: 10px;
+}
+
+hr.linha {
+    background-color: rgb(255, 255, 255);
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 3px;
 }
