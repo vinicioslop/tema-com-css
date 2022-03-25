@@ -1,14 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Hurricane&family=Pacifico&display=swap');
+
 body {
+    background-image: url(fundo.jpg);
+    background-size: cover;
+
+    color: rgb(255, 255, 255);
 }
 
 main#container {
+    background-image: linear-gradient(rgb(30, 14, 17) 60%, rgb(242, 22, 82));
+
+    border: 20px solid rgb(232, 233, 237);
+    border-radius: 10px;
 }
 
 h1.titulo {
+    font-family: 'Dancing Script', cursive;
+    font-variant: small-caps;
+    color: rgb(148, 193, 60);
+    font-size: 32px;
+    font-weight: bold;
 }
 
 p.frase {
+    font-family: 'Pacifico', cursive;
+    color: rgb(232, 233, 237);
+    font-size: 24px;
 }
 
 p.autor {
+    font-family: 'Hurricane', cursive;
+    color: rgb(239, 228, 172);
+    font-size: 32px;
+    font-style: italic;
 }
